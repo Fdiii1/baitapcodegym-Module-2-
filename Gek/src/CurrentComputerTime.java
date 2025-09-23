@@ -29,7 +29,7 @@ public class CurrentComputerTime {
 
             
             default:
-            System.out.println("Vui lòng nhập số tháng từ 1 đến 12");3    
+            System.out.println("Vui lòng nhập số tháng từ 1 đến 12");
 
                 break;
         }

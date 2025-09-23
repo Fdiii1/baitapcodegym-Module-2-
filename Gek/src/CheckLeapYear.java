@@ -3,8 +3,9 @@ package Gek.src;
 import java.util.Scanner;
 
 public class CheckLeapYear {
+         
+    private static final  Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-          Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào số năm cần tính: ");
         int year = scanner.nextInt();
 

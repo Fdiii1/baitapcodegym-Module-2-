@@ -3,8 +3,9 @@ package Gek.src;
 import java.util.Scanner;
 
 public class BMI {
+       
+     private static final   Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
     double weight, height, bmi;
     System.out.print("Your weight (in kilogram):");
     weight = scanner.nextDouble();
